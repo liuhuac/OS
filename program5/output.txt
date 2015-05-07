@@ -1,0 +1,53 @@
+make test1
+./vmsim shortTrace.txt  4 
+VM simulation using 4 page frames:
+
+STATISTICS
+   References:              39973
+   Page Faults:              3331
+   Fault Handler Statistics
+      Placements:              11
+      Clean Replaced:        2316
+      Modified Replaced:     1004
+
+---------------------------------------------
+
+make test2
+./vmsim shortTrace.txt 10
+VM simulation using 10 page frames:
+
+STATISTICS
+   References:              39973
+   Page Faults:              1584
+   Fault Handler Statistics
+      Placements:              20
+      Clean Replaced:        1130
+      Modified Replaced:      434
+
+---------------------------------------------
+
+make test3
+./vmsim shortTrace.txt 20
+VM simulation using 20 page frames:
+
+STATISTICS
+   References:              39973
+   Page Faults:              1275
+   Fault Handler Statistics
+      Placements:              36
+      Clean Replaced:         858
+      Modified Replaced:      381
+
+---------------------------------------------
+
+make test4
+./vmsim shortTrace.txt 40
+VM simulation using 40 page frames:
+
+STATISTICS
+   References:              39973
+   Page Faults:              1113
+   Fault Handler Statistics
+      Placements:              58
+      Clean Replaced:         694
+      Modified Replaced:      361
